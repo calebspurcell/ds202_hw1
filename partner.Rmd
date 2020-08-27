@@ -1,0 +1,23 @@
+---
+title: "Partner"
+author: "Elisabeth Balke"
+date: "8/27/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Partner: Caleb Purcell
+
+1. GitHub username: calebspurcell
+
+2. He committed hw1.Rmd and hw1.html 
+    - *Commit ID* 537fedfd7046c465297ce0d849b77ad90caa4a6c
+  
+3. Yes, able to knit!
+
+4. Tip for working through GitHub: don't rush
+
+
