@@ -1,0 +1,77 @@
+---
+title: 'Homework #1'
+author: "Caleb Purcell"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This homework is more or less a tutorial that helps you set up the coding environment used in this course, and familiarizes you with the format of the assignment submission. 
+As a pre-requisite of this homework, first install R, and then the RStudio (the free version of Rstudio Desktop). 
+
+1. Create a folder named `ds202_hw1`, and **either** create an RMarkDown file `hw1.Rmd` under this folder **or** move the provided template into this folder. `hw1.Rmd` will include your solutions. The file and folder names are *case-sensitive*, which means `hw1.Rmd` and `HW1.rmd` are different. *It is crucial to follow the exact folder structure and file names* in this course, so that your homework can be reproduced. The correct folder structure is
+
+    ```
+    ds202_hw1
+    |-- hw1.Rmd
+    |-- hw1.html (generated after knitting)
+    ```
+    
+    Answer: Done (Note that the start of your answer on the next line must be indented. Don't remove the leading spaces.)
+
+2. Write your name in the YAML of your homework `Rmd` file.
+
+    Answer: Done
+
+3. Write a paragraph to introduce yourself. Set your name in bold font and your major in italic. 
+
+    Answer: Hello, I am **Caleb Purcell** a junior majoring in *statistics* with a minor in data science.  I am from Huxley, IA, so I'm pretty close to home.  My main interest is sports.  Whether it be playing, watching, reading, or researching, I enjoy it all.  In my free time I used play sports like soccer, basketball, frisbee, and football, but I haven't been able to do as much because of covid.  After graduation I hope to put my statisics degree to work in the sports industry, whether it be for a sports company or a team.  
+  
+4. Write a paragraph describing a job that you think is related to data science. Include a hyperlink and an image. Make sure your answer is in a nice format to read. 
+
+    Answer: One job that closely relates to data science is a data scientist.  A data scientist may perform a wide variety of tasks, but the main function of their work is to make sense of the vast amount of data in our world.  They might do this by utilizing machine learning to build predicive models, which can be used to help a company make data-driven decisions.  One job opportunity I found online was from Amazon looking to hire a data scientist.  This is the link to that job and its description: https://www.amazon.jobs/en/jobs/1026930/data-scientist-nationwide-opportunities?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid 
+  
+5. What data topic will you be most interested in? (Optional) Provide a source of such dataset if you have.
+
+    Answer: The topic I am most interested in is sports data.  Being able to draw conclusions/make predictions from sports data is something I hope to be doing in the future.
+  
+6. To check that your R and Rstudio installation is correct, find the version of R by entering `version` into the R console. Include this command into a R code trunk in your solution `Rmd` file to have it automatically printed in the knitted html file. 
+
+    Answer: Done
+```{r}
+version
+```
+  
+7. Install git. 
+    - If you are on Windows: 
+        a. Install [Git for Windows](https://gitforwindows.org/). In the coming weeks we will use the Git Bash (but not the Git GUI). 
+        b. After installation, set up Rstudio to use Git bash as the shell for the Terminal: Open RStudio, click Tools--Global Options--Terminal; under **Shells**, select Git Bash; click OK. 
+        c. In the main menu of RStudio: click Tools--Terminal--New Terminal. If you have a `$` before your prompt, then you should be good to go.
+    - If you are on Linux or macOS, Git has probably been installed by default, so you do not need to install anything. Just click the Terminal tab (above the R Console).
+
+    Answer: Done
+  
+8. What is the version of your Git? To find out, go to the Terminal tab in RStudio (right to the Console tab), and type in the following command. If it works, this shows that the setup of your terminal and Git is correct. 
+<!-- Then explore the bash command line and Git. -->
+
+    ```
+    git --version
+    ```
+
+    Answer: 2.15.0
+  
+9. Configure your git username and user email by modifying and entering the following commands into the terminal
+
+    ```
+    git config --global user.name "Caleb Purcell"
+    git config --global user.email "calebp99@iastate.edu"
+    ```
+
+    Answer: Done
+  
+
+10. Register a [GitHub](https://www.github.com) account. What is your username?
+
+    Answer: calebspurcell
